@@ -1,4 +1,5 @@
 T = int(input())
+print('test1')
 for _ in range(T):
     L, R, S = map(int, input().split())
     possible_steps = []
@@ -27,3 +28,4 @@ for _ in range(T):
         print(min(possible_steps))
     else:
         print(-1)
+print('testtesttesttesttesttest')
